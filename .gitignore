@@ -1,0 +1,24 @@
+# Local config / secrets
+*.local.*
+*.local
+
+# Dependencies (no trailing slash: also ignores node_modules SYMLINKS, e.g.
+# ts/node_modules -> shared tree, which a dir-only rule leaves tracked)
+node_modules
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+
+# Editor
+*~
+*.swp
+
+
+# Python
+__pycache__
+*.egg-info
+.pytest_cache
